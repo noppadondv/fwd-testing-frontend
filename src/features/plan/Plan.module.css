@@ -1,0 +1,68 @@
+.PlanPage {
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+
+.FilterBox {
+  transform: translateY(-10%);
+  z-index: 1;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.ImageLanding {
+  z-index: 1;
+  width: 100%;
+}
+
+.FilterCard {
+  border-radius: 25px !important;
+  padding: 20px !important;
+}
+
+.Hero {
+  width: 100%;
+  position: relative;
+}
+
+.HeroText {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  font-size: 2rem;
+  color: #ed6c02;
+  padding: 20px;
+  background-color: hsl(0deg 0% 100% / 32%);
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .FilterBox {
+    /* background-color: lightblue; */
+    transform: translateY(-15%);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .FilterBox {
+    /* background-color: lightblue; */
+    transform: translateY(-30%);
+  }
+
+  .FilterCard {
+    padding: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .FilterBox {
+    /* background-color: lightblue; */
+    transform: translateY(-50%);
+  }
+
+  .FilterCard {
+    padding: 40px !important;
+  }
+}
